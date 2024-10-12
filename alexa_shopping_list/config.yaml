@@ -11,6 +11,6 @@ startup: "services"
 ports:
   4000/tcp: 4000
 map:
-  data:
+  - type: data
     path: "/config"
     read_only: false
